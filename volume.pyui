@@ -1,0 +1,147 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{31, 15}, {256, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{225, 212}, {150, 32}}",
+          "uuid" : "DCC36BCB-E03D-4A64-BE2A-F425FBD45447",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter in the radius and height",
+          "name" : "instruction_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{31, 71}, {62, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{225, 212}, {150, 32}}",
+          "uuid" : "B0A377A6-5AA4-46B3-A93A-4272EBD5C247",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Radius:",
+          "name" : "radius_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{101, 71}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "placeholder" : "Radius",
+          "frame" : "{{200, 212}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "8D01DDDF-E954-4426-9322-71A5BB5D0DB2",
+          "alignment" : "center",
+          "text" : "",
+          "autocorrection_type" : "default",
+          "name" : "radius_textfield",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{31, 120.5}, {62, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{225, 212}, {150, 32}}",
+          "uuid" : "B0A377A6-5AA4-46B3-A93A-4272EBD5C247",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Height:",
+          "font_size" : 18,
+          "name" : "height_label"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{101, 120.5}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_name" : "<System>",
+          "placeholder" : "Height",
+          "frame" : "{{200, 212}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "8D01DDDF-E954-4426-9322-71A5BB5D0DB2",
+          "alignment" : "center",
+          "text" : "",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "name" : "height_textfield"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{31, 178}, {117, 50}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "cal_button_touch_up_inside",
+          "frame" : "{{260, 212}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "3337600D-63EC-4BF1-9255-16F9002BDC85",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{31, 269}, {241, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{126, 170}, {150, 32}}",
+          "uuid" : "92C30434-3EB0-43B1-8FE8-8C4DE0CDF8B2",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "answers_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {402, 372}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
